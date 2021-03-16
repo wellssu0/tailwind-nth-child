@@ -1,0 +1,23 @@
+{
+  "name": "tailwind-nth-child",
+  "version": "1.0.0",
+  "description": "Nth Children Variants for Tailwindcss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wellssu0/tailwind-nth-child.git"
+  },
+  "keywords": [
+    "tailwindcss",
+    "nth-child"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wellssu0/tailwind-nth-child/issues"
+  },
+  "homepage": "https://github.com/wellssu0/tailwind-nth-child#readme"
+}
