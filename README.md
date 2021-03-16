@@ -6,13 +6,13 @@ This repository is a plug in for [Tailwindcss](https://github.com/tailwindlabs/t
 --
 Install the plugin via npm:
 
-    npm install tailwindcss-nth-child
+    npm install tailwind-nth-child
 
 tailwind.config.js
 --
 Create an instance like this.
 ``` js
-const Nth =  require('tailwindcss-nth-child');
+const Nth =  require('tailwind-nth-child');
 const <name_suffix> =  new  Nth('<name_suffix>','<nth-value>')
 module.exports = {
 // ...
@@ -39,7 +39,7 @@ Examples
 --
 tailwind.config.js
 ```jsx
-const Nth = require('tailwindcss-nth-child')
+const Nth = require('tailwind-nth-child')
 const nth3n =  new  Nth('3n','3n+0') // Sub-elements that are multiples of 3
 const nth2n =  new  Nth('2n','2n+0') // Sub-elements that are multiples of 2  === new  Nth('even','even')
 const nth5 =  new  Nth('5','-n+5') // The first five child elements
