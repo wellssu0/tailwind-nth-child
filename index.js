@@ -10,7 +10,9 @@ class NthChild {
         return function ({ addVariant }) {
             addVariant('nth-child-' + name_suffix, ({ modifySelectors, separator }) => {
                 modifySelectors(({ className }) => {
-                    const css = `.nth-child-${name_suffix}\\${separator}${className}>*:nth-child(${nth})`
+                    const splitClassName = className.split('/')
+                    const finalClassName = splitClassName.length > 1 ? splitClassName.join('\\/') : className
+                    const css = `.nth-child-${name_suffix}\\${separator}${finalClassName}>*:nth-child(${nth})`
                     return css;
                 });
             })
